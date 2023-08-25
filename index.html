@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <script src="scripts/app.js"></script>
+  <title>Pathogen Wiki</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/x-icon" href="Wiki Icon.png" class="round">
+  <div class="topnav">
+    <img src="Wiki Icon.png" alt="Wiki Icon" width="50" height="50" class="dimensions">
+    <a href="" class="active">Pathogen Wiki</a>
+    <a href="about.html">About</a>
+    <a href="account.html">Account</a>
+    <a href="privacypolicy.html">Privacy Policy</a>
+    <a href="contribute.html">Contribute</a>
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search..." name="search">
+    </form>
+  </div>
+</head>
+
+<body>
+  <script src="script.js"></script>
+  <br>
+  <div id="search_engine">
+    <br><br><br>
+    <h1><strong>Pathogen Information,</strong></h1>
+    <h2>at your fingertips.</h2>
+    <br><br><br>
+    <!--<div>
+      <br>
+      <input type="text" placeholder="Search the database..." class="size">
+    </div>-->
+    <div class="search-container">
+      <!--<form action="http://www.google.com/search" method="get" class="my-form">
+        <input type="submit" value="search" placeholder="Learn about a pathogen..." name="input-2" class="box">
+        <button type="submit" class="bar"><img src="search.svg" class="svg"></button>
+      </form>-->
+      <form action="https://www.google.com/search" method="get" target="_blank">
+    <input type="text" name="q"/>
+    <input type="submit" value="search" />
+</form>
+    </div>
+      <!--<form action="http://www.google.com/search" method="get">
+        <input type="text" name="q"/>
+        <input type="submit" value="search" />
+      </form>-->
+      <!-- <script>
+        let form = document.querySelector(".my-form");
+
+        form.addEventListener("submit", function (e) {
+          e.preventDefault() // This prevents the window from reloading
+
+          let formdata = new FormData(this);
+          let input = formdata.get("my-input");
+          console.log(input);
+          alert(input);
+        });
+      </script> -->
+    </div>
+    <br><br><br><br><br><br>
+  </div>
+  <br>
+  <div class="credits">
+    <h3>Credits</h3>
+  </div>
+  <br>
+  <div class="footer">
+    <a href="privacypolicy.html">Privacy Policy</a><br><br>
+    <a href="about.html">About</a><br><br>
+    <a href="account.html">My Account</a><br><br>
+  </div>
+</body>
+
+</html>
